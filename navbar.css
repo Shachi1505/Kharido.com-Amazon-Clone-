@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    border: 2px solid transparent;
+    
+}
+.box:hover{
+    border: 1.5px solid white;
+    transition: 0.3s;
+}
+.nav-bar{
+    background-color: black;
+    height: 60px;
+    display: flex;
+
+}
+.nav-box1{
+    background-image: url(Kharido.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 130px;
+    margin-top: 5px;
+    }
+.nav-box2{
+display: flex;
+padding-left: 10px;
+padding-right: 10px;
+}
+.box2-left{
+    /*location icon*/
+    padding-top: 18px;
+    margin-left: 15px;
+}
+.box2-right{
+    margin-left: 8px;
+    padding-top: 12px;
+}
+.first-box2{ /* Deliver to*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #cccccc;
+}
+.second-box2{ /*India*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+color: #FFFFFF;
+}
+.nav-box3{
+    display: flex;
+    margin-left: 10px;
+    width: 600px;
+    justify-content: space-evenly;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+}
+.nav-select{
+    padding: 10px;
+    background-color: rgb(188, 186, 186);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.nav-input{
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box3-icon{
+    width: 45px;
+    align-items: center;
+   display: flex;
+   justify-content: center;
+   background-color: #febd69;
+   border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-box4{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.nav-box4 img{
+    width: 30px;
+    height: 25px;
+    margin-right: 5px;
+}
+.box4-select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.nav-box5 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 12px;
+    margin-left: 20px;
+   
+}
+.box-first {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-left: 5px;
+}
+.box-second {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+}
+.nav-box6 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.nav-box7{
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+display: flex;
+align-items: center;
+}
+.nav-box7 p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 15px;
+}

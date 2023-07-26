@@ -1,0 +1,26 @@
+.back {
+    background-image: url(surya.jpg);
+    height: 800px;
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.workout {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    background-color: rgb(212, 189, 159);
+    padding: 10px 20px;
+}
+.fit-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 400px;
+    border: none;
+    background-color: rgb(236, 202, 202);
+    border-radius: 10px;
+}
